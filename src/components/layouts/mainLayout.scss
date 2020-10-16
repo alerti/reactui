@@ -1,0 +1,43 @@
+.Input__place {
+ flex:1;
+  height: 100%;
+}
+.main__contaner-buttons {
+  display: flex;
+box-sizing: border-box;
+  align-items: center;
+  margin-bottom: 10px;
+
+  height: 50px;
+}
+.Sendbutton__placeholder {
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .Main__contaner {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .Two___dis1 {
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .Main__p {
+    padding: 20px;
+  }
+}
+
+.main__layout__div {
+  width: 100%;
+}

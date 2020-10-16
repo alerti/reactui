@@ -22,6 +22,7 @@ import {
   Container,
   Modal
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 class AdminNavbar extends React.Component {
   constructor(props) {
@@ -184,7 +185,7 @@ class AdminNavbar extends React.Component {
                     </NavLink>
                     <DropdownItem divider tag="li" />
                     <NavLink tag="li">
-                      <DropdownItem className="nav-item">Log out</DropdownItem>
+                    <Link to="/login" ><DropdownItem className="nav-item">Log out </DropdownItem></Link>
                     </NavLink>
                   </DropdownMenu>
                 </UncontrolledDropdown>

@@ -305,8 +305,8 @@ class Dashboard extends React.Component {
                      
                      
                       <tr>
-                        <td>Jon Porter</td>
-                        <td>Portugal</td>
+                        <td>John Mwangi</td>
+                        <td>Kenya</td>
                         <td>Mpesa</td>
                         <td className="text-center">2000 (ksh)</td>
                       </tr>

@@ -4,7 +4,7 @@ import Dashboard from "./views/Dashboard.js";
 //import Map from "views/Map.js";
 import Notifications from "./views/Notifications.js";
 //import Rtl from "views/Rtl.js";
-//import TableList from "views/TableList.js";
+import TableList from "./views/TableList.js";
 //import Typography from "views/Typography.js";
 import UserProfile from "./views/UserProfile.js";
 
@@ -17,6 +17,7 @@ var routes = [
     component: Dashboard,
     layout: "/admin"
   },
+
   // {
   //   path: "/icons",
   //   name: "Icons",
@@ -48,15 +49,15 @@ var routes = [
     icon: "tim-icons icon-single-02",
     component: UserProfile,
     layout: "/admin"
+  },
+  {
+    path: "/recent",
+    name: "Current transactions",
+    rtlName: "alartt",
+    icon: "tim-icons icon-puzzle-10",
+    component: TableList,
+    layout: "/admin"
   }
-  // {
-  //   path: "/tables",
-  //   name: "Table List",
-  //   rtlName: "alartt",
-  //   icon: "tim-icons icon-puzzle-10",
-  //   component: TableList,
-  //   layout: "/admin"
-  // }
   // {
   //   path: "/typography",
   //   name: "Typography",
